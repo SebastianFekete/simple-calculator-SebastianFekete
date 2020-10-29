@@ -103,11 +103,7 @@ public class Controller {
                 displayField.setText(displayField.getText()+aktuelleZahl);
                 aktuelleZahl=0;
                 list.clear();
-
-
-
-
-    }
+ }
 
     @FXML
     void handleButtonAdd(ActionEvent event){
@@ -200,10 +196,5 @@ public class Controller {
 
         displayField.setText(displayField.getText()+"9");
     }
-
-
-
-
-
 
 }
